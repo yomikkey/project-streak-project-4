@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* justify-content: space-around; */
+    /* border: 1px solid #1A1110; */
+}
+
+.brand-logo {
+    margin-left: 4vw;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 30vw;
+    margin-left: 3.5vw;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list-item {
+    display: flex;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 300;
+}
+
+.home {
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-button {
+    border: 0px;
+    height: 6vh;
+    width: 9vw;
+    margin-left: 27vw;
+    border-radius: 10px;
+    background-color: rgba(112, 32, 232, 0.995);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+/* ------------------------------ */
+/* ---------- Hero Section ------------ */
+/* ------------------------------ */
+
+.banner-container {
+    display: flex;
+    /* background-color: #1A1110; */
+    flex-direction: row;
+    /* border: 1px solid green; */
+}
+
+.hero-heading {
+    color: wheat;
+    flex: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vh;
+    margin-left: 12vw;
+    margin-top: 15vh;
+    margin-bottom: 3vh;
+}
+
+.small-text {
+    color: wheat;
+    flex: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    margin-left: 2vw;
+    margin-top: 15vh;
+    margin-bottom: 3vh;
+}
+
+.banner-text-area {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 85vh;
+    /* width: 100vw; */
+    /* justify-content: center; */
+    margin-left: 8.75vw;
+}
+
+.illustration-image {
+    /* border: 1px solid black; */
+    height: 75vh;
+    width: 50vw;
+    /* margin-left: 12vw; */
+    margin-left: 15vw;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+}
+
+.heading-text {
+    /* color: blueviolet; */
+    margin-top: 12vh;
+    color: rgba(112, 32, 232, 0.995);
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.crush {
+    color: rgb(47, 85, 166)
+}
+
+.description {
+    color: gray;
+    margin-top: 2em;
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-btn {
+    border: 0px;
+    margin-top: 3em;
+    height: 7vh;
+    width: 12vw;
+    border-radius: 10px;
+    background-color: rgba(112, 32, 232, 0.995);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    /* align-self: center; */
+}
